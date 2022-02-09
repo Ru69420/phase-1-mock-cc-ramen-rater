@@ -78,19 +78,6 @@ newRamenForm.addEventListener('submit', handleSubmit)
 function handleSubmit(e) {
   e.preventDefault()
 
-  
-  const ramen = {}
-
-  
-  ramen.name = e.target.name.value
-  
-  ramen.restaurant = e.target.restaurant.value
-  
-  ramen.image = e.target.image.value
-  
-  ramen.rating = e.target.rating.value
-  
-  ramen.comment = e.target["new-comment"].value
 
   
   renderRamen(ramen)
