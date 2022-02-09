@@ -6,6 +6,7 @@ const baseUrl = 'http://localhost:3000'
 const ramenMenu = document.getElementById('ramen-menu')
 const newRamenForm = document.getElementById('new-ramen')
 
+
 fetch(`${baseUrl}/ramens`)
   .then(res => res.json())
   .then(ramenObjects => {
